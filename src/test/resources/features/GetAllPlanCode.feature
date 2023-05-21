@@ -18,4 +18,3 @@ Feature: Get All Plan Code
     And assert response[1].planExpired == false
     And assert response[2].planExpired == false
     And assert response[3].planExpired == false
-    
