@@ -72,7 +72,7 @@ Feature: Create a complete account
     When method post
     Then status 201
     And print response
-    And assert response.phoneNumber == "randomPhoneNumber"
+    And assert response.phoneNumber == randomPhoneNumber
     # Add car
     Given path "/api/accounts/add-account-car"
     And param primaryPersonId = id
