@@ -4,6 +4,7 @@
 #Add Phone
 #Add Car
 #Get Account
+@Regression
 Feature: Create a complete account
 
   Background: Setup url and token

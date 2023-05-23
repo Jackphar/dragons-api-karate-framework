@@ -1,3 +1,4 @@
+@Smoke @Regression
 Feature: Token Verify Test
 
   Background: Setup url
